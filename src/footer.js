@@ -1,1 +1,1 @@
-document.write("<div class='footer'>footer content</div> etc...");
+document.getElementById("footer").innerHTML = "Javascript text!";

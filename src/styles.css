@@ -63,15 +63,28 @@ footer {
   bottom: auto;
   color: white;
 }
+#navbar {
+  position: relative;
+}
+@supports (position: sticky) {
+  #navbar {
+    line-height: 25px;
+    font-size: 16px;
+    padding-left: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+}
 
 /* Social Media stuff */
 .sa {
-  height: 25px;
-  width: 25px;
+  height: 50px;
+  width: 50px;
   padding: 10px;
 }
 .sa:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .sa-email {
   content: url("icons/icon-heart.png");

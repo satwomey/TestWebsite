@@ -1,9 +1,16 @@
-import $ from "jquery";
+//import $ from "jquery";
 import "./styles.css";
 
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
 `;
+
+document.getElementById(
+  "footer"
+).innerHTML = `<a href="#" class="sa sa-email"></a>
+  <a href="#" class="sa sa-twitter"></a>
+  <a href="#" class="sa sa-github"></a>
+  <a href="#" class="sa sa-linkedin"></a>`;
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {
